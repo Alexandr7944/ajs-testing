@@ -5,7 +5,7 @@ branches:
     - master # ветка в git
 
 cache: 
-  - node_modules -> yarn.lock 
+  - node_modules
 install:
   - npm instal # команда установки зависимостей
 build: off
