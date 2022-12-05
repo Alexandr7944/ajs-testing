@@ -3,9 +3,9 @@ stack: node 12 # окружение
 branches:
   only:
     - master # ветка в git
-    
+
 cache: 
-    - node_modules # кеширование
+  - node_modules -> yarn.lock 
 install:
   - npm instal # команда установки зависимостей
 build: off
