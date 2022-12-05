@@ -6,7 +6,7 @@ branches:
     - master # ветка в git
 
 cache: 
-  - node_modules
+  - node_modules # кеширование
 install:
   - npm instal # команда установки зависимостей
 build: off
