@@ -19,6 +19,7 @@
     "jest-babel": "^1.0.1"
   },
   "dependencies": {
-    "core-js": "^3.26.1"
+    "core-js": "^3.26.1",
+    "node": "^19.2.0"
   }
 }
